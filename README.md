@@ -4,14 +4,14 @@
 
 ## Instalação do Docker no WSL
 
-*Utilizar iptables legada*
+**Utilizar iptables legada**
 Executar:
 ```sh
 sudo update-alternatives --config iptables
 ```
 Selecionar a opção “iptables-legacy”
 
-*Instalar o Docker*
+**Instalar o Docker**
 Remover versões antigas:
 ```sh
 sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -45,7 +45,7 @@ docker --version
 docker compose version
 ```
 
-*Adicionar Alias* (Alias para o comando “docker-compose” funcionar)
+**Adicionar Alias** (Alias para o comando “docker-compose” funcionar)
 
 Abrir o arquivo
 ```sh
@@ -66,7 +66,7 @@ Para testar, executar:
 docker-compose version
 ```
 
-*Adicionar permissões*
+**Adicionar permissões**
 Executar:
 ```sh
 sudo groupadd docker
